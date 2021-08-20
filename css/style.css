@@ -1,0 +1,53 @@
+body{
+    background-color: cyan;
+}
+
+.caja, .caja2{
+    height: 20vh;
+    border: 1px solid white;
+    width: 25%;
+    background-color: black;
+
+}
+
+@media(max-width: 1200px){
+    body{
+        background-color: darkcyan;
+    }
+    .caja{
+        width: 25%;
+    }
+
+}
+
+@media(max-widht: 900px){
+body{
+    background-color: darkgoldenrod;
+}
+
+.caja{
+    width: 50%;
+
+}
+
+}
+
+@media(max-widht: 500px){
+    body{
+        background-color: darkorchid;
+    }
+    .caja{
+        width: 25%;
+    }
+
+    p{
+        font-size: 30px;
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+    .caja2{
+        display: none;
+    }
+}
+
